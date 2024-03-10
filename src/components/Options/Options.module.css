@@ -1,0 +1,36 @@
+.container {
+  text-align: start;
+}
+
+.container button:not(:last-child) {
+  margin-right: 15px;
+}
+.goodBtn:hover {
+  border-color: green;
+}
+
+.goodBtn:focus,
+.goodBtn:focus-visible {
+  outline: 4px auto green;
+}
+.neutralBtn:hover {
+  border-color: blue;
+}
+.neutralBtn:focus,
+.neutralBtn:focus-visible {
+  outline: 4px auto blue;
+}
+.badBtn:hover {
+  border-color: red;
+}
+.badBtn:focus,
+.badBtn:focus-visible {
+  outline: 4px auto red;
+}
+.resetBtn:hover {
+  border-color: yellow;
+}
+.resetBtn:focus,
+.resetBtn:focus-visible {
+  outline: 4px auto yellow;
+}
